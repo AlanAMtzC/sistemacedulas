@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Table, Tag, Space } from 'antd';
+import { Table } from 'antd';
 import axios from 'axios';
 
 function App() {
