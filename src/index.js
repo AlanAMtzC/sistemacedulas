@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SiderAuditor from './layout/SiderAuditor'
 import 'antd/dist/antd.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+<SiderAuditor>
+   <App>
+     </App>
+     </SiderAuditor>,
+
+ 
   document.getElementById('root')
 );
 

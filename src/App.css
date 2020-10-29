@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgb(237, 20, 20);
+}
+
+.site-layout .site-layout-background {
+  background: rgb(237, 20, 20);
+}

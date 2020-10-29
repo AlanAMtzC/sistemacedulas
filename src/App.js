@@ -146,7 +146,11 @@ const datas = [
   },
 ];
   return (
+    <div className="App">
+      <div className="App-header" >
     <Table columns={columns} dataSource={data} />
+    </div>
+    </div>
   );
 }
 
