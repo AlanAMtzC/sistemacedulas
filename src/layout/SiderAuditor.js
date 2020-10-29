@@ -1,4 +1,4 @@
-import '../App.css';
+import cs from'../App.css';
 
 import logoo from '../images/easewhite2.png';
 import logo2 from '../images/easewhite.png';
@@ -60,18 +60,21 @@ function SiderDemo (){
             </Menu.Item>
           </Menu>
         </Sider>
-        <Layout className="../App.css/site-layout">
-          <Header className="../App.css/site-layout-background" style={{ padding: 0 }} />
+        <Layout className="site-layout">
+          <Header className="header" style={{ padding: 0 }} />
           <Content style={{ margin: '0 16px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
               <Breadcrumb.Item>User</Breadcrumb.Item>
               <Breadcrumb.Item>Bill</Breadcrumb.Item>
             </Breadcrumb>
-            <div className="../App.css/site-layout-background" style={{ padding: 24, minHeight: 360 }}>
+            <div className="site-layout-background" style={{ padding: 24, minHeight: 360 }}>
+
+
+
 
             </div>
           </Content>
-          <Footer style={{ textAlign: 'center' }}>Sistema Cedulas ©2020 Creado por la <a href='http://auditoriadurango.gob.mx/'>EASE </a> </Footer>
+          <Footer style={{ textAlign: 'center' }}>Sistema de Cedulas 1.0 ©2020 Desarrollado por la <a target="_blank" href="http://auditoriadurango.gob.mx/">EASE</a></Footer>
         </Layout>
       </Layout>
     );

@@ -39,9 +39,13 @@
 #components-layout-demo-side .logo {
   height: 32px;
   margin: 16px;
-  background: rgb(237, 20, 20);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 .site-layout .site-layout-background {
-  background: rgb(237, 20, 20);
+  background: #fff;
+}
+
+.header {
+  background: #000c17;
 }
