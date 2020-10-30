@@ -1,4 +1,4 @@
-import cs from'../App.css';
+import '../App.css';
 
 import logoo from '../images/easewhite2.png';
 import logo2 from '../images/easewhite.png';
@@ -26,8 +26,8 @@ function SiderDemo (){
 
   
     return (
-      <Layout style={{ minHeight: '100vh' }}>
-        <Sider collapsible collapsed={collapsed} onCollapse={onCollapse}>
+      < >
+        <Sider collapsible collapsed={collapsed} onCollapse={onCollapse} style={{ minHeight: '100vh' }}>
           <div  style={{
                         height: 64,
                         backgroundImage: `url(${collapsed ? logoo : logo2})`,
@@ -60,7 +60,7 @@ function SiderDemo (){
             </Menu.Item>
           </Menu>
         </Sider>
-        <Layout className="site-layout">
+       {/*  <Layout className="site-layout">
           <Header className="header" style={{ padding: 0 }} />
           <Content style={{ margin: '0 16px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
@@ -75,8 +75,8 @@ function SiderDemo (){
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>Sistema de Cedulas 1.0 ©2020 Desarrollado por la <a target="_blank" href="http://auditoriadurango.gob.mx/">EASE</a></Footer>
-        </Layout>
-      </Layout>
+        </Layout> */}
+      </>
     );
     
   }

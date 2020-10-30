@@ -3,15 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SiderAuditor from './layout/SiderAuditor'
+import SiderAuditor from './layout/SiderAuditor';
+import Head from './layout/head';
+
 import 'antd/dist/antd.css';
 
-ReactDOM.render(
 
-<SiderAuditor>
-   <App>
-     </App>
-     </SiderAuditor>,
+ReactDOM.render(
+<App/>,
+
+
+   
 
  
   document.getElementById('root')

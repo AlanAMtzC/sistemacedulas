@@ -1,8 +1,34 @@
-import { useEffect, useState } from 'react';
-import { Table } from 'antd';
-import axios from 'axios';
+
+import React from 'react';
+import './index.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import SiderAuditor from './layout/SiderAuditor';
+import Head from './layout/head';
+
+import 'antd/dist/antd.css';
+import { Layout } from 'antd';
 
 function App() {
+
+return(
+
+
+  <Layout>
+
+<SiderAuditor/>
+  <Head/>
+
+</Layout>
+
+
+
+)
+  
+}
+
+export default App;
+
+/* function App() {
 
   const [data, setdata] = useState([]);
 
@@ -154,4 +180,4 @@ const datas = [
   );
 }
 
-export default App;
+export default App; */
