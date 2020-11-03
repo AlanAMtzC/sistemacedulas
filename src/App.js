@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './index.css';
+import './index.scss';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import SiderAuditor from './layout/SiderAuditor';
 import Head from './layout/head';
