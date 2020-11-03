@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+.tabla {
+  align-items: center;
+  padding-top: 80px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

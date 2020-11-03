@@ -1,5 +1,5 @@
 import '../App.css';
-
+ 
 import logoo from '../images/easewhite2.png';
 import logo2 from '../images/easewhite.png';
 

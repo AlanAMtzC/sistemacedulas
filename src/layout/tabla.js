@@ -1,45 +1,10 @@
+import { useEffect, useState } from 'react';
+import { Table } from 'antd';
+import axios from 'axios';
+import '../App.css';
 
-import React from 'react';
-import './index.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import SiderAuditor from './layout/SiderAuditor';
-import Head from './layout/head';
-import Tabla from './layout/tabla';
-import 'antd/dist/antd.css';
-import { Layout } from 'antd';
-
-function App() {
-
-return(
-
-
-  <Layout>
-
-<SiderAuditor/>
-  <Head/>
-  
-
-
- 
-
-
-
- 
-
-</Layout>
-
-
-
-)
-  
-}
-
-export default App;
-
-/* function App() {
-
+function Tabla() {
   const [data, setdata] = useState([]);
-
   useEffect(async () => {
     try {
       let body = {
@@ -57,7 +22,6 @@ export default App;
       console.error(err);
     }
   }, [])
-
 const columns = [
   {
     title: 'RamoId',
@@ -155,7 +119,6 @@ const columns = [
     key: 'Diferencia',
   },
 ];
-
 const datas = [
   {
     key: '1',
@@ -180,12 +143,12 @@ const datas = [
   },
 ];
   return (
-    <div className="App">
-      <div className="App-header" >
-    <Table columns={columns} dataSource={data} />
-    </div>
-    </div>
+  
+     
+    <Table className="tabla" columns={columns} dataSource={data} />
+   
+    
   );
 }
 
-export default App; */
+export default Tabla;
